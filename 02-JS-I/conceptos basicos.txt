@@ -1,0 +1,16 @@
+* Variables:
+  Palabras alfanumericas que no son "palabras reservadas del lenguaje de programación" y que pueden ser utilizadas para almacenas datos
+
+* Strings:
+  Son datos de tipo texto o cadena de texto.
+
+* Funciones (argumentos, `return`)
+  Son procedimientos creados por el usuario y inherentes del lenguaje de programación, que  permiten realizar procesos espefícos los cuales pueden ser accedidos cuando se lo requiera. Además dan un orden en la programación proocedimental.
+  Estos tienen 2 reactivos principales: "argumentos" los cuales son datos pueden ser necesarios si esta función necesita datos de inicio. Y los datos de salida, los cuales se puede arrojar al utilizar la palabra reservadas "return".
+
+* Declaraciones `if`
+  Es una declaración que nos permite en base al cumplimiento de una condición proseguir en 2 caminos iniciales como base de un flujo boleano para construir procedimientos de multiples resultados lógicos.
+
+* Valores booleanos (`true`, `false`)
+  Es la base de la computación e informática, inicialmente se hablaba de sistemas binarios (0 y 1), y para su uso en computadores electronicos se genero todo un estudio sobre ello, consecuando el Modelo Boleano que es la base de todo lo que conocemos en informatica (hardware y sofware).
+  Pero cuando se habla desde el punto de vista de lenguaje de programación, hablamos solo de 2 estados (verdadero y falso).
