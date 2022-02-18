@@ -67,7 +67,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length == str2.length;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -94,7 +94,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     return true;
   }
   return false;
@@ -104,7 +104,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 1) {
+  if (num % 2 === 1) {
     return true;
   }
   return false;
@@ -216,7 +216,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
- if (letra.length == 1) {
+ if (letra.length === 1) {
    switch (letra) {
      case 'a':
        return 'Es vocal';

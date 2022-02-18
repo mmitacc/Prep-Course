@@ -1,0 +1,8 @@
+* `for`
+  Es un procedimiento iterativo básico que tienen la mayoría de lenguajes de programación estructurados, nos sirven para mantener un codigo compacto en vez de usar su alternativa secuencial y repetitiva además otras ventajas con el uso de variables.
+
+* `&&`, `||`, `!`
+  Son los 3 pilares de comparación para el uso de operaciones boolenas. Estas representan sus leyes fundamentales basadas en los valores de un bit: (0, falso); (1, verdadero).
+  `&&`  Representa Y (AND), y solo es TRUE si ambas partes de comparación son verdaderas.
+  `││`  Representa O (OR), y solo es FALSE si ambas partes de comparación son falsas.
+  `!`   Representa NEGACIÓN (NOT), y valor resultante es conmutativo, es decir si se aplica a TRUE es FALSE y viceversa.
