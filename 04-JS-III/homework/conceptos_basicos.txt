@@ -1,0 +1,3 @@
+	* Arrays
+    Es una colección o agrupación de datos organizados, los datos pueden contener cualquier tipo (desde los básicos como números, string, boolean, ...., hasta funciones; inclusivo a otros "arrays").
+    
