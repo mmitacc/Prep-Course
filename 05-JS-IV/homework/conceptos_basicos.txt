@@ -1,0 +1,26 @@
+* Objetos
+  Es una forma de conceptuar los elementos de nuestra realidad y encapsularlos como información (Ejemplos: DNI 43131548, Toyota Corona, PC Apple, Juan Perez, etc.), la cual puede ser detallada en dos partes:
+
+   * Propiedades
+     Características propias del objeto.
+     Ejemplos:
+     - En el objeto DNI 43131548: numero, fecha de inscripción: 15/12/2018, fecha de caducidad: 15/12/2023, fecha de nacimiento: 01/12/2000, nombre: ichard, Apellido; Toreto, etc.
+     - En el objeto Toyota Corona: color, version, motor, placa, capacidad de tanque de gasolina, etc.
+     - En el objeto PC Apple: marca, color, microprocesador, RAM, disco duro, video, case, etc.
+     - En el objeto Juan Perez: nombres, apellido paterno, apellido materno, padre, madre, esposa, hijos, N° DNI, fecha nacimiento, peso, altura, sexo, etc.
+
+   * Métodos
+     Funcionalidades propias del objeto.
+     Ejemplos:
+     - En el objeto DNI 43131548: Cambio de nombres(), perdida DNI, actualizacion DNI, etc.
+     - En el objeto Toyota Corona: arrancar_auto(), cambio_motor(), cambio_placa(), llenar_gasolina(), etc.
+     - En el objeto PC Apple: encender_PC(), apagar_PC, cambio_microprocesador(), mejora_video(), etc.
+     - En el objeto Juan Perez: inscripción_DNI(), nacimiento(), casarse(), divorcio(), fallecimiento(), etc.
+
+* Bucle `for…in`
+  Es un proceso iterativo con el que podemos recorrer las Propiedades y Métodos de un objeto.
+
+* Notación de puntos vs notación de corchetes
+  Con ambas podemos acceder a las Propiedades y Métodos de un objeto, aunque cada una tiene una ventaja siginificativa al usarla:
+  - Notación de puntos, es la más rápida de escribir y coherente ó lógico para entenderlo, pero solo puede ser utilizada siempre que se la conozca. Ejm.: DNI 43131548.fecha de nacimiento; Toyota Corola.modelo; PC Apple.placa; Juan Perez.altura; etc.
+  - Notación de corchetes, con esta notación se tiene más flexibilidad ya que se puede detallar una variable y otros argumentos al mismo tiempo. Ejm.: DNI 43131548[detallarNombresYApellidos]; Toyota Corola[CalcularAñosDeAntiguedad]; PC Apple[DetallarMejorModelo]; Juan Perez[EdadActual]; etc.
