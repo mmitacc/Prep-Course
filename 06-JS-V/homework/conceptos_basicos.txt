@@ -1,0 +1,6 @@
+* `prototype`
+  Es la apliacación de Herencia de "metodos" de una Class, en realidad es un objeto intrínseco en el objeto Scope ó un conjunto de metodos propio de todos los objetos que tiene activo un objeto del cual se trabaja.
+
+* _Constructors_ (de Clases)
+  Es la creación de una instancia de Clase (que también será un objeto pero que herera las propiedades y metodos de la Clase).
+  
