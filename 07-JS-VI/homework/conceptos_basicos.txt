@@ -1,0 +1,2 @@
+* Funciones Callback
+  Son funciones que llaman a otra función, y en cuyos argumentos se especifica el nombre de la función que llamaran y los argumentos para dicha función.
