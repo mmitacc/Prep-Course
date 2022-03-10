@@ -1,16 +1,40 @@
+html {
+  background-image: url("./img/rock_alternativo_f.jpg");
+}
+
+body {
+  text-align: center;
+}
+
 h1 {
   color: brown;
 }
+
 img {
   width: 400px;
 }
-#thirdDiv {
-  heigth: 600px;
-  width: 400px;
-  background-color: aquamarine;
-  padding: 50px;
-  border: 10px solid cyan;
+
+ul {
+  list-style-type: none;
+  display:flex;
+  /* align-items: center; */
+  justify-content: center;
 }
+
+ul > li {
+  /* flex: auto; */
+  border: solid 2px dodgerblue;
+}
+
+#thirdDiv {
+  /* heigth: 600px; */
+  /* width: 200px; */
+  background-color: moccasin;
+  padding: 10px;
+  border: 10px solid dodgerblue;
+  display:inline-block;
+}
+
 #spanId {
   font-size: 18px;
   margin: 50px;
