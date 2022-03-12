@@ -49,16 +49,16 @@ function saludo(idioma) {
   switch (idioma) {
     case 'aleman':
       return 'Guten Tag!';
-      break;
+      // break;
     case 'mandarin':
       return 'Ni Hao!';
-      break;
+      // break;
     case 'ingles':
       return 'Hello!';
-      break;
+      // break;
     case undefined:
       return 'Hola!';
-      break;
+      // break;
     default:
       return 'Hola!';
   }
@@ -75,16 +75,16 @@ function colors(color) {
   switch (color) {
     case 'blue':
       return 'This is blue';
-      break;
+      // break;
     case 'red':
       return 'This is red';
-      break;
+      // break;
     case 'green':
       return 'This is green';
-      break;
+      // break;
     case 'orange':
       return 'This is orange';
-      break;
+      // break;
     default:
       return 'Color not found';
   }
@@ -118,13 +118,19 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero === 0) {
+  // if (numero === 0) {
+  //   return true;
+  // }
+  // else if (numero % Math.floor(numero) === 0) {
+  //   return true;
+  // }
+  // return false;
+  if (numero === Math.floor(numero)) {
     return true;
   }
-  else if (numero % Math.floor(numero) === 0) {
-    return true;
+  else {
+    return false;
   }
-  return false;
 }
 
 function fizzBuzz(numero) {
@@ -158,13 +164,16 @@ function operadoresLogicos(num1, num2, num3) {
     return "Error";
   }
   else if ( num3>num1 && num3>num2 ) {
-    var num3mayor = num3 + 1;
-    return num3mayor;
+    // var num3mayor = num3 + 1;
+    // return num3mayor;
+    return num3+1;
   }
   else if (num1>num2 && num1>num3){
     return 'Número 1 es mayor y positivo';
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function esPrimo(numero) {

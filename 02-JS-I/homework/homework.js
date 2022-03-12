@@ -60,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x == y;
+  return x === y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -94,20 +94,22 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
-    return true;
-  }
-  return false;
+  // if (num % 2 === 0) {
+  //   return true;
+  // }
+  // return false;
+  return num % 2 === 0;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1) {
-    return true;
-  }
-  return false;
+  // if (num % 2 === 1) {
+  //   return true;
+  // }
+  // return false;
+  return num % 2 === 1;
 }
 
 function elevarAlCuadrado(num) {

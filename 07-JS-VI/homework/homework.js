@@ -4,15 +4,20 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
-  let for_titulo = [];
-  for (var i = 0; i < nombre.length; i++) {
-    if (i === 0) {
-      for_titulo = for_titulo + nombre[i].toUpperCase();
-    }
-    else {
-      for_titulo = for_titulo + nombre[i];
-    }
-  };
+  // let for_titulo = [];
+  // for (var i = 0; i < nombre.length; i++) {
+  //   if (i === 0) {
+  //     for_titulo = for_titulo + nombre[i].toUpperCase();
+  //   }
+  //   else {
+  //     for_titulo = for_titulo + nombre[i];
+  //   }
+  // };
+  // return for_titulo;
+  let for_titulo = nombre[0].toUpperCase();
+  for (var i = 1; i < nombre.length; i++) {
+    for_titulo = for_titulo + nombre[i];
+  }
   return for_titulo;
 }
 
@@ -34,15 +39,17 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  var sumados = numeros.reduce(function(a,b){return a+b});
-  cb(sumados);
+  // var sumados = numeros.reduce(function(a,b){return a+b});
+  let suma = numeros.reduce((a,b)=>(a+b));
+  cb(suma);
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-  array.forEach(function(item, i){ cb(item); });
+  // array.forEach(function(item, i){ cb(item); });
+  array.forEach((item,i)=>(cb(item)));
 }
 
 function map(array, cb) {
@@ -50,9 +57,10 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  let nuevo_array = array.map(function(item) {
-    return cb(item);
-  });
+  // let nuevo_array = array.map(function(item) {
+  //   return cb(item);
+  // });
+  let nuevo_array = array.map((item)=>(cb(item)));
   return nuevo_array;
 }
 
@@ -60,7 +68,8 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-  let nuevo_array = array.filter(function(item) {return item[0] === 'a'; });
+  // let nuevo_array = array.filter(function(item) {return item[0] === 'a'; });
+  let nuevo_array = array.filter((item)=>(item[0]==='a'));
   return nuevo_array;
 }
 
